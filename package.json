@@ -1,0 +1,24 @@
+{
+  "name": "template",
+  "version": "2.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TigranVardanyan/template.git"
+  },
+  "author": "tig.vardanyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TigranVardanyan/template/issues"
+  },
+  "homepage": "https://github.com/TigranVardanyan/template#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
