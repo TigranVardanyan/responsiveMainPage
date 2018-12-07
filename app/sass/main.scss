@@ -4,8 +4,14 @@
 // Анимации
 @import 'animations';
 
+//pages
+@import 'visibility';
+
 body {
 	.header-nav {
+		padding: 20px 0 20px;
+		position: fixed;
+		z-index:999;
 		.row {
 			.header {
 				h1 {
@@ -27,6 +33,7 @@ body {
 						margin-left: 50px;
 						text-decoration: none;
 						list-style: none;
+						cursor: pointer;
 						a {
 							&::after {
 								display: inline;
@@ -64,6 +71,7 @@ body {
 		}
 	}
 	.content {
+		padding-top: 100px;
 		border-top-right-radius: 20px;
 		border-top-left-radius: 20px;
 		border-bottom-right-radius: 21px;
@@ -73,6 +81,7 @@ body {
 		    font-family: Montserrat, Helvetica, sans-serif;
 		    font-weight: 700;
 			margin: 0;
+			color: white;
 		}
 		.content_heaer {
 			background-image: url(../img/bg.png);
@@ -86,6 +95,9 @@ body {
 			flex-direction: row;
 			justify-content: space-between;
 			min-width: 33%;
+			.portfolio {
+				padding: 30px 50px;
+			}
 			.avatar {
 				width: 300px;
 					position: relative;
@@ -236,4 +248,13 @@ body {
 			}
 		}
 	}
+}
+
+body {
+	background-image: url(../img/main_bg.png);
+	background-color: #f5f5f5;
+	background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
