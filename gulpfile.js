@@ -27,6 +27,9 @@ gulp.task('clean', function() {
 
 gulp.task('watch', ['browser-sync', 'sass'], function() {
     gulp.watch('app/sass/**/*.+(sass|scss)', ['sass']); // Наблюдение за sass файлами
+    gulp.watch('app/*.+(php|html)' , browserSync.reload);
+    gulp.watch('app/js/**/*.js' , browserSync.reload);
+
     // Наблюдение за другими типами файлов
 });
 gulp.task('build' , ['clean' , 'sass'], function() {

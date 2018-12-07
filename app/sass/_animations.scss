@@ -1,0 +1,29 @@
+@keyframes animatiaFrontend {
+	0% {
+		transform: rotateY(0deg)
+	};
+	50% {
+		transform: rotateY(180deg)
+	};
+	100% {
+		transform: rotateY(360deg)	
+	}
+}
+
+@keyframes animatiaFrontend2 {
+	0% {
+		transform: rotateY(180deg)
+	};
+	50% {
+		transform: rotateY(360deg)
+	};
+	100% {
+		transform: rotateY(180deg)	
+	}
+}
+
+@keyframes cogsAnime {
+	100% {
+		transform:rotate(720deg);
+	}
+}
