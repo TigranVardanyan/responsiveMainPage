@@ -67,6 +67,8 @@ body .header-nav {
   padding: 20px 0 20px;
   position: fixed;
   z-index: 999; }
+  body .header-nav.sticked {
+    background-color: white; }
   body .header-nav .row .header h1 {
     font-size: 25px;
     margin: 0;

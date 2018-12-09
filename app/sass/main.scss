@@ -12,6 +12,9 @@ body {
 		padding: 20px 0 20px;
 		position: fixed;
 		z-index:999;
+		&.sticked {
+			background-color: white;
+		}
 		.row {
 			.header {
 				h1 {
