@@ -1,65 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129274133-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-129274133-1');
-	</script>
-	<meta charset="UTF-8">
-	<title>MyDailyCode.ru</title>
-	<!--  font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<!-- google fonts  -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
-	<!-- Main -->
-	<link rel="stylesheet" href="css/main.css">
-</head>
+<?php require_once('head.php'); ?>
 <body>
 	<div class="container wrapper">
 		<div class="row justify-content-center">
-			<div class="header-nav col">
-				<div class="container">
-					<div class="row align-items-center justify-content-around">
-						<div class="header col-3">
-							<div class="author">
-								<h1>Tigran <span class="cChange">Vardanyan</span></h1>
-							</div>
-						</div>
-						<div class="navbar col-9">
-							<ul class="justify-content-around">
-								<li><a>Home</a></li>
-								<li><a>Portfolio</a></li>
-								<li><a>Service</a></li>
-								<li><a>Resume</a></li>
-								<li><a>Blog</a></li>
-								<li><a>Contact</a></li>
-								<li><a>Extra</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php require_once('navbar.php'); ?>
 		</div>
 		<div class="row justify-content-center col-12">
 			<div class="content col-12">
 				<div class="container">
 					<div class="row align-items-center justify-content-around">
 						<div class="content_heaer col-12">
-							<div class="container home page current_page_show">
+							<div class="container home page">
 								<div class="row align-items-center justify-content-between">
-									<div class="avatar col-4">
-										<img src="img/avatar.png" alt="" width="270" height="270">
+									<div class="avatar col-lg-4">
+										<div class="row justify-content-center">
+											<img src="img/avatar.png" alt="" width="270" height="270">
+										</div>
 									</div>
-									<div class="view col-8">
+									<div class="view col-lg-8">
 										<div class="title_block">
 											<h2>
 												TIGRAN VARDANYAN
@@ -82,21 +41,16 @@
 									</div>
 								</div>
 							</div>
-							<div class="container portfolio page current_page_hide">
-								<div class="row align-items-center justify-content-center">
-									<h1>Portfolio</h1>
-								</div>
-							</div>
 						</div>
 						<div class="content_main col-12">
-							<div class="container home page current_page_show">
+							<div class="container home page">
 								<div class="row align-items-center justify-content-center">
-									<div class="abouteMe col-5">
+									<div class="abouteMe col-12 col-lg-4">
 										<h3>Aboute <span class="cChange">Me</span></h3>
 										<p>Hello. I'm Tigran Vardanyan. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam optio quasi temporibus perspiciatis, quibusdam architecto eaque vel fugiat. Reiciendis sed, illum mollitia. </p>
 										<a href="">Download resume</a>
 									</div>
-									<div class="adminData col-8">
+									<div class="adminData col-12 col-lg-8">
 										<div class="container">
 											<div class="row align-items-center">
 												<div class="data-Q col-12">
@@ -116,7 +70,6 @@
 									</div>
 								</div>
 							</div>
-							<div class="container portfolio page current_page_hide"></div>
 						</div>
 					</div>
 				</div>
@@ -127,13 +80,6 @@
 		</div>
 	</div>
 
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
