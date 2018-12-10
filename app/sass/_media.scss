@@ -26,6 +26,33 @@
 @media screen and (max-width: 992px) {
 	html{
 		body {
+			.header-nav {
+				.container {
+					.row {
+						align-items: baseline !important;
+					}
+				}
+				.row {
+					.navbar {
+						ul {
+							display: block;
+							&.open {
+								background-color: white;
+							}
+							li {
+								padding: 5px;
+								&.hide {
+									display: none;
+								}
+								&.cross {
+									display: block;
+									text-align: right;
+								}
+							}
+						}
+					}
+				}
+			}
 			.content {
 				.content_heaer {
 					.avatar {

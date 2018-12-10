@@ -6,7 +6,7 @@
 		<div class="row justify-content-center">
 			<?php require_once('navbar.php'); ?>
 		</div>
-		<div class="row justify-content-center col-12">
+		<div class="row justify-content-center">
 			<div class="content col-12">
 				<div class="container">
 					<div class="row align-items-center justify-content-around">
@@ -91,7 +91,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center col-12">
+		<div class="row justify-content-center">
 			<footer>© 2017 All rights reserved.</footer>
 		</div>
 	</div>

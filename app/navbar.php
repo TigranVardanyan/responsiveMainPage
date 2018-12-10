@@ -1,20 +1,21 @@
 <div class="header-nav col">
 	<div class="container">
 		<div class="row align-items-center justify-content-around">
-			<div class="header col col-lg-3">
+			<div class="header col-6 col-lg-3">
 				<div class="author">
 					<h1>Tigran <span class="cChange">Vardanyan</span></h1>
 				</div>
 			</div>
-			<div class="navbar col col-lg-9">
+			<div class="navbar col-6 col-lg-9">
 				<ul class="justify-content-around">
-					<li><a href="index.php">Home</a></li>
-					<li><a href="portfolio.php">Portfolio</a></li>
-					<li><a href="404.php">Service</a></li>
-					<li><a>Resume</a></li>
-					<li><a>Blog</a></li>
-					<li><a>Contact</a></li>
-					<li><a>Extra</a></li>
+					<li class="cross hide"><a><i class="fas fa-bars"></i></a></li>
+					<li class="hide"><a href="index.php">Home</a></li>
+					<li class="hide"><a href="portfolio.php">Portfolio</a></li>
+					<li class="hide"><a href="404.php">Service</a></li>
+					<li class="hide"><a>Resume</a></li>
+					<li class="hide"><a>Blog</a></li>
+					<li class="hide"><a>Contact</a></li>
+					<li class="hide"><a>Extra</a></li>
 				</ul>
 			</div>
 		</div>
