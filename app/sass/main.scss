@@ -18,6 +18,7 @@ body {
 		z-index:999;
 		&.sticked {
 			background-color: white;
+			box-shadow: 0 15px 25px 0 rgba(0,0,0,.1);
 		}
 		.row {
 			.header {
@@ -127,23 +128,17 @@ body {
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
+					margin-bottom: 3px;
 				}
 				.rotate {
 					position: relative;
 					z-index: 10;
+					margin-bottom: 3px;
 					h3 {
-						font-size: 1.3rem;
-						margin: 0;
-					}
-					.h31 {
-						position: relative;
-						transform: rotateY(180deg);
-						backface-visibility: hidden;
-						animation: animatiaFrontend2 4.5s infinite ease;
+						font-size: 1.4rem;
 					}
 					.h32 {
 						position: relative;
-						top: -30px;
 						backface-visibility: hidden;
 						animation: animatiaFrontend 4.5s infinite ease;
 					}
@@ -157,6 +152,7 @@ body {
 					flex-direction: row;
 					justify-content: center;
 					color: #a9a9a9;
+					margin-bottom: 3px;
 					a {
 						color: inherit;
 						text-decoration: none;
@@ -190,12 +186,14 @@ body {
 				h3 {
 					margin: 0;
 					padding: 0;
+					font-size: 2.2rem;
 					span {
 						color: var(--primary-color);
 					}	
 				}
 				p {
-						color: #a9a9a9;
+					color: #a9a9a9;
+					font-size: 1.2rem;
 					}
 				a {
 					display: block;
@@ -259,7 +257,7 @@ body {
 						a {
 							display: block;
 							font-family: Montserrat, sans-serif;
-							font-size: 18.72px;
+							font-size: 1.5rem;
 							font-weight: 700;
 							text-decoration: none;								
 						}

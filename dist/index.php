@@ -24,9 +24,6 @@
 										</h2>
 									</div>
 									<div class="rotate">
-										<h3 class="h31">
-											Frontend - developer 
-										</h3>
 										<h3 class="h32">
 											Frontend - developer
 										</h3>
@@ -44,25 +41,23 @@
 					<div class="content_main col-12">
 						<div class="container home page">
 							<div class="row align-items-center justify-content-center">
-								<div class="abouteMe col-12 col-lg-4">
+								<div class="abouteMe col-12 col-lg-5">
 									<h3>Aboute <span class="cChange">Me</span></h3>
 									<p>Hello. I'm Tigran Vardanyan. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam optio quasi temporibus perspiciatis, quibusdam architecto eaque vel fugiat. Reiciendis sed, illum mollitia. </p>
 									<a href="">Download resume</a>
 								</div>
-								<div class="adminData col-12 col-lg-8">
+								<div class="adminData col-12 col-lg-7">
 									<div class="container">
 										<div class="row align-items-center">
 											<div class="data-Q col-12">
-												<div class="row">
-													<ul>
-														<li class="title"><span class="title">Age</span><span class="value">21</span></li>
-														<li class="title"><span class="title">Residence</span><span class="value">Armenia</span></li>
-														<li class="title"><span class="title">Address</span><span class="value">Fuchik 2-12</span></li>
-														<li class="title"><span class="title">E-mail</span><span class="value cChange">tig.vardanyan.001@gmail.com</span></li>
-														<li class="title"><span class="title">Phone</span><span class="value">+374 (77) 72-01-66</span></li>
-														<li class="title"><span class="title">Freelance</span><span class="value">Available</span></li>
-													</ul>
-												</div>
+												<ul>
+													<li class="title"><span class="title">Age</span><span class="value">21</span></li>
+													<li class="title"><span class="title">Residence</span><span class="value">Armenia</span></li>
+													<li class="title"><span class="title">Address</span><span class="value">Fuchik 2-12</span></li>
+													<li class="title"><span class="title">E-mail</span><span class="value cChange">tig.vardanyan.001@gmail.com</span></li>
+													<li class="title"><span class="title">Phone</span><span class="value">+374 (77) 72-01-66</span></li>
+													<li class="title"><span class="title">Freelance</span><span class="value">Available</span></li>
+												</ul>
 											</div>
 										</div>
 									</div>
