@@ -8,8 +8,15 @@ var resume = document.querySelectorAll('.resume');
 var blog = document.querySelectorAll('.blog');
 var contact = document.querySelectorAll('.contact');
 var extra = document.querySelectorAll('.extra');
+var headerNav = document.querySelector('.header-nav');
 
-
+window.onscroll = function() {
+	if(window.pageYOffset > 25) {
+		headerNav.classList.add('sticked');
+	} else {
+		headerNav.classList.remove('sticked');
+	}
+}
 
 link[0].addEventListener('click' , function(e) {
 	for(var i = 0; i < page.length; i++) {
