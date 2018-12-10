@@ -7,6 +7,10 @@
 //pages
 @import 'visibility';
 
+//media
+@import "media";
+
+
 body {
 	.header-nav {
 		padding: 20px 0 20px;
@@ -161,8 +165,8 @@ body {
 							border-radius: 50%;
 							background: white;
 							display: flex;
-							height: 37px;
-							width: 37px;
+							height: 3.7rem;
+							width: 3.7rem;
 							font-size: 1.3rem;
 							justify-content: center;
 							align-items:center;

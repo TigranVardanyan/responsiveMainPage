@@ -1,1 +1,47 @@
 //Медиа запросы
+
+@media screen and (max-width: 768px) {
+	html{
+		font-size: 30px;
+		body {
+			.content {
+				.content_heaer {
+					.avatar {
+						padding: 8px 0 8px;
+						img {
+							top: 0px;
+						}
+					}
+					.view {
+						.social-links {
+							padding-bottom: 8px;
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+
+@media screen and (max-width: 992px) {
+	html{
+		body {
+			.content {
+				.content_heaer {
+					.avatar {
+						padding: 8px 0 8px;
+						img {
+							top: 0px;
+						}
+
+					}
+					.view {
+						.social-links {
+							padding-bottom: 8px;
+						}
+					}
+				}
+			}
+		}
+	}	
+}

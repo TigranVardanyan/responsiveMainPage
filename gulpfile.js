@@ -53,3 +53,9 @@ gulp.task('build' , ['clean' , 'sass'], function() {
 	var img = gulp.src([
 		'app/img/**/*.*'])
 		.pipe(gulp.dest('dist/img'));
+	var libs = gulp.src([
+		'app/libs/**/*.*'])
+		.pipe(gulp.dest('dist/libs'));
+	var fav = gulp.src([
+		'app/*.ico'])
+		.pipe(gulp.dest('dist/'));

@@ -16,12 +16,13 @@
     "url": "https://github.com/TigranVardanyan/template/issues"
   },
   "homepage": "https://github.com/TigranVardanyan/template#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0"
   }
 }

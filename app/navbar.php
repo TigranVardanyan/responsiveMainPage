@@ -1,12 +1,12 @@
 <div class="header-nav col">
 	<div class="container">
 		<div class="row align-items-center justify-content-around">
-			<div class="header col-3">
+			<div class="header col col-lg-3">
 				<div class="author">
 					<h1>Tigran <span class="cChange">Vardanyan</span></h1>
 				</div>
 			</div>
-			<div class="navbar col-9">
+			<div class="navbar col col-lg-9">
 				<ul class="justify-content-around">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="portfolio.php">Portfolio</a></li>
