@@ -1,11 +1,10 @@
 //Медиа запросы
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
 	html{
 		font-size: 25px;
 		body {
 			.wrapper {
-			    max-width: 650px;
 				.content {
 					.content_heaer {
 						.avatar {
@@ -26,12 +25,11 @@
 	}	
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-device-width: 992px) {
 	html{
 		font-size: 18px;
 		body {
 			.wrapper {
-				max-width:850px;
 			}
 			.header-nav {
 				.container {

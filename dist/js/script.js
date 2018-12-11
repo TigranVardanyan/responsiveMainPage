@@ -13,6 +13,8 @@ var headerNav = document.querySelector('.header-nav');
 var cross = document.querySelector('.cross');
 var navUlLi = document.querySelectorAll('.navbar ul li');
 var navUl = document.querySelector('.navbar ul');
+var wrapper = document.querySelector('.wrapper');
+var windowSize = document.documentElement.clientWidth;
 // aside vars
 var switcher = document.getElementById('switch');
 var pageColor = document.querySelector('aside div.page_color');
@@ -20,6 +22,19 @@ var cog = document.querySelector('.fa-cog');
 var colors = document.querySelector('.page_color .colors');
 var toolbarColor = document.querySelectorAll('.page_color .colors .color');
 var cChange = document.querySelectorAll('.cChange');
+
+window.onresize = resize;
+
+function resize() {
+	windowSize = document.documentElement.clientWidth;
+	if(windowSize < 992) {
+		wrapper.classList.add('container-fluid');
+		wrapper.classList.remove('container');
+	} else {
+		wrapper.classList.remove('container-fluid');
+		wrapper.classList.add('container');
+	}
+}
 
 //main scripts
 window.onscroll = function() {

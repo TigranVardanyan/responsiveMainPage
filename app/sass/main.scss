@@ -138,13 +138,8 @@ body {
 					h3 {
 						font-size: 1.4rem;
 					}
-					.h32 {
-						position: absolute;
-						backface-visibility: hidden;
-						animation: animatiaFrontend 3s infinite ease;
-					}
 					.h31 {
-						position: absolute;
+						position: relative;
 						backface-visibility: hidden;
 						animation: animatiaFrontend2 3s infinite ease;
 					}
@@ -232,12 +227,10 @@ body {
 						padding:0;
 						li {
 							.title {
-								display: inline-block;
 								min-width:120px;
 								color: #424242;
 							}
 							.value {
-								display: inline-block;
 								color: #a9a9a9;
 							}
 							.cChange {

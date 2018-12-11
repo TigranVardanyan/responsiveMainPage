@@ -2,7 +2,7 @@
 <html lang="en">
 <?php require_once('head.php'); ?>
 <body>
-	<div class="container wrapper">
+	<div class="container-fluid wrapper">
 		<div class="row justify-content-center">
 			<?php require_once('navbar.php'); ?>
 		</div>
@@ -24,7 +24,7 @@
 										</h2>
 									</div>
 									<div class="rotate">
-										<h3 class="h32">
+										<h3 class="h31">
 											Frontend - developer
 										</h3>
 									</div>

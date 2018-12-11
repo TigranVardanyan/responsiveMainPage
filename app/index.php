@@ -27,9 +27,6 @@
 										<h3 class="h31">
 											Frontend - developer
 										</h3>
-										<h3 class="h32">
-											Frontend - developer
-										</h3>
 									</div>
 									<div class="social-links">
 										<a href="https://www.facebook.com/profile.php?id=100005146777210"><i class="fab fa-facebook-f"></i></a>
