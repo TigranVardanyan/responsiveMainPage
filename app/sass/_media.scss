@@ -4,17 +4,20 @@
 	html{
 		font-size: 25px;
 		body {
-			.content {
-				.content_heaer {
-					.avatar {
-						padding: 8px 0 8px;
-						img {
-							top: 0px;
+			.wrapper {
+			    max-width: 650px;
+				.content {
+					.content_heaer {
+						.avatar {
+							padding: 8px 0 8px;
+							img {
+								top: 0px;
+							}
 						}
-					}
-					.view {
-						.social-links {
-							padding-bottom: 8px;
+						.view {
+							.social-links {
+								padding-bottom: 8px;
+							}
 						}
 					}
 				}
@@ -27,6 +30,9 @@
 	html{
 		font-size: 18px;
 		body {
+			.wrapper {
+				max-width:850px;
+			}
 			.header-nav {
 				.container {
 					.row {

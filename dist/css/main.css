@@ -66,16 +66,20 @@
 @media screen and (max-width: 768px) {
   html {
     font-size: 25px; }
-    html body .content .content_heaer .avatar {
-      padding: 8px 0 8px; }
-      html body .content .content_heaer .avatar img {
-        top: 0px; }
-    html body .content .content_heaer .view .social-links {
-      padding-bottom: 8px; } }
+    html body .wrapper {
+      max-width: 650px; }
+      html body .wrapper .content .content_heaer .avatar {
+        padding: 8px 0 8px; }
+        html body .wrapper .content .content_heaer .avatar img {
+          top: 0px; }
+      html body .wrapper .content .content_heaer .view .social-links {
+        padding-bottom: 8px; } }
 
 @media screen and (max-width: 992px) {
   html {
     font-size: 18px; }
+    html body .wrapper {
+      max-width: 850px; }
     html body .header-nav .container .row {
       -webkit-box-align: baseline !important;
       -webkit-align-items: baseline !important;
