@@ -27,9 +27,6 @@
 										<h3 class="h31">
 											Frontend - developer
 										</h3>
-										<h3 class="h32">
-											Frontend - developer
-										</h3>
 									</div>
 									<div class="social-links">
 										<a href="https://www.facebook.com/profile.php?id=100005146777210"><i class="fab fa-facebook-f"></i></a>
@@ -47,7 +44,7 @@
 								<div class="abouteMe col-12 col-lg-5">
 									<h3>Aboute <span class="cChange">Me</span></h3>
 									<p>Hello. I'm Tigran Vardanyan. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam optio quasi temporibus perspiciatis, quibusdam architecto eaque vel fugiat. Reiciendis sed, illum mollitia. </p>
-									<a href="">Download resume</a>
+									<a download="" href="TigranVardanyan.pdf">Download resume</a>
 								</div>
 								<div class="adminData col-12 col-lg-7">
 									<div class="container">

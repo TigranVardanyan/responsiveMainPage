@@ -261,14 +261,8 @@ body .content {
         margin-bottom: 3px; }
         body .content .content_heaer .view .rotate h3 {
           font-size: 1.4rem; }
-        body .content .content_heaer .view .rotate .h32 {
-          position: absolute;
-          -webkit-backface-visibility: hidden;
-                  backface-visibility: hidden;
-          -webkit-animation: animatiaFrontend 3s infinite ease;
-                  animation: animatiaFrontend 3s infinite ease; }
         body .content .content_heaer .view .rotate .h31 {
-          position: absolute;
+          position: relative;
           -webkit-backface-visibility: hidden;
                   backface-visibility: hidden;
           -webkit-animation: animatiaFrontend2 3s infinite ease;
