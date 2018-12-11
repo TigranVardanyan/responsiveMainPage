@@ -12,12 +12,15 @@
 					<li class="hide"><a href="index.php">Home</a></li>
 					<li class="hide"><a href="portfolio.php">Portfolio</a></li>
 					<li class="hide"><a href="404.php">Service</a></li>
-					<li class="hide"><a>Resume</a></li>
-					<li class="hide"><a>Blog</a></li>
-					<li class="hide"><a>Contact</a></li>
-					<li class="hide"><a>Extra</a></li>
+					<li class="hide"><a href="404.php">Resume</a></li>
+					<li class="hide"><a href="404.php">Blog</a></li>
+					<li class="hide"><a href="404.php">Contact</a></li>
+					<li class="hide"><a href="404.php">Extra</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+<?php require_once('sidebar.php'); ?>

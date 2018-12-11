@@ -9,7 +9,7 @@
 		<div class="row justify-content-center">
 			<div class="container content col-12">
 				<div class="row align-items-center justify-content-around">
-					<div class="content_heaer col-12">
+					<div class="content_heaer cChange col-12">
 						<div class="container home page">
 							<div class="row align-items-center justify-content-between">
 								<div class="avatar col-lg-4">

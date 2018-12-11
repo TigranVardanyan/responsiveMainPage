@@ -10,7 +10,7 @@
 			<div class="content col-12">
 				<div class="container">
 					<div class="row align-items-center justify-content-around">
-						<div class="content_heaer col-12">
+						<div class="content_heaer cChange col-12">
 							<div class="container portfolio page">
 								<div class="row align-items-center justify-content-center">
 									<h1>Portfolio</h1>
@@ -19,8 +19,8 @@
 						</div>
 						<div class="content_main col-12">
 							<div class="container portfolio page">
-								<div class="resume">
-									<div class="resumes">
+								<div class="resume cChange">
+									<div class="resumes cChange">
 										<a href="/catalogs/blog/">My blog</a>
 										<p><span class="span_date">2018</span><span class="span_location">|</span></p>
 									</div>
