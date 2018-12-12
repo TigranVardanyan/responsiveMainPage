@@ -226,13 +226,13 @@ body {
 						list-style: none;
 						padding:0;
 						li {
+							display: flex;
+							justify-content: space-between;
 							.title {
-								display: inline-block;
 								min-width:120px;
 								color: #424242;
 							}
 							.value {
-								display: inline-block;
 								color: #a9a9a9;
 							}
 							.cChange {
