@@ -24,6 +24,8 @@ var toolbarColor = document.querySelectorAll('.page_color .colors .color');
 var cChange = document.querySelectorAll('.cChange');
 
 window.onresize = resize;
+document.addEventListener("DOMContentLoaded", resize);
+
 
 function resize() {
 	windowSize = document.documentElement.clientWidth;

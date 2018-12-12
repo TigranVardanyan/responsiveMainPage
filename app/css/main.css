@@ -373,13 +373,22 @@ body .content {
           line-height: 25px;
           list-style: none;
           padding: 0; }
-          body .content .content_main .adminData .data-Q ul li .title {
-            min-width: 120px;
-            color: #424242; }
-          body .content .content_main .adminData .data-Q ul li .value {
-            color: #a9a9a9; }
-          body .content .content_main .adminData .data-Q ul li .cChange {
-            color: var(--primary-color); }
+          body .content .content_main .adminData .data-Q ul li {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between; }
+            body .content .content_main .adminData .data-Q ul li .title {
+              min-width: 120px;
+              color: #424242; }
+            body .content .content_main .adminData .data-Q ul li .value {
+              color: #a9a9a9; }
+            body .content .content_main .adminData .data-Q ul li .cChange {
+              color: var(--primary-color); }
     body .content .content_main .portfolio .resume .resumes {
       border: 2px solid #e0e0e0;
       border-left: 2px solid var(--primary-color);
