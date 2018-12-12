@@ -14,7 +14,7 @@ var cross = document.querySelector('.cross');
 var navUlLi = document.querySelectorAll('.navbar ul li');
 var navUl = document.querySelector('.navbar ul');
 var wrapper = document.querySelector('.wrapper');
-var windowSize = document.documentElement.clientWidth;
+var windowSize;
 // aside vars
 var switcher = document.getElementById('switch');
 var pageColor = document.querySelector('aside div.page_color');

@@ -1,0 +1,15 @@
+# Rule 1
+User-agent: *
+Disallow: /catalogs/
+
+# Rule 2
+User-agent: *
+Allow: /revers/
+
+# Rule 3
+User-agent: *
+Allow: /test/
+
+# Rule 4
+User-agent: *
+Allow: /test1/

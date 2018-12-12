@@ -374,11 +374,9 @@ body .content {
           list-style: none;
           padding: 0; }
           body .content .content_main .adminData .data-Q ul li .title {
-            display: inline-block;
             min-width: 120px;
             color: #424242; }
           body .content .content_main .adminData .data-Q ul li .value {
-            display: inline-block;
             color: #a9a9a9; }
           body .content .content_main .adminData .data-Q ul li .cChange {
             color: var(--primary-color); }
