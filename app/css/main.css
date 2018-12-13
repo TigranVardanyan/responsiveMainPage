@@ -667,3 +667,6 @@ aside {
   -webkit-transition: 0.45s linear;
   -o-transition: 0.45s linear;
   transition: 0.45s linear; }
+
+.sectionHide {
+  display: none; }

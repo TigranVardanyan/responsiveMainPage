@@ -1,6 +1,15 @@
 //main vars
 var pages = document.querySelector('.navbar ul');
 var link = document.querySelectorAll('.navbar ul li');
+var homeSec = document.querySelector("#home-sec")
+var homeSecLink = document.querySelector('#home-sec-link');
+var portfolioSec = document.querySelector('#portfolio-sec');
+var portfolioSecLink = document.querySelector('#portfolio-sec-link');
+var serviceSec = document.querySelector('#service-sec');
+var serviceSecLink = document.querySelector('#service-sec-link');
+var resumeSec = document.querySelector('#resume-sec');
+var resumeSecLink = document.querySelector('#resume-sec-link');
+var sections = document.querySelectorAll('section')
 var page = document.querySelectorAll('.page');
 var home = document.querySelectorAll('.home');
 var portfolio = document.querySelectorAll('.portfolio');
@@ -55,14 +64,28 @@ cross.addEventListener('click' , () => {
 	}
 })
 
-
-//ajax
-
-ajax.addEventListener('click' , function() {
-	$('.contentParent').remove();
-	$('.content').load("resume.php");
-
+//link------------------------------------------------------
+homeSecLink.addEventListener('click' , function(e) {
+	for(var i = 0; i < sections.length; i++) {
+		sections[i].classList.add('sectionHide');
+	}
+	homeSec.classList.remove('sectionHide')
 })
+
+portfolioSecLink.addEventListener('click' , function(e) {
+	for(var i = 0; i < sections.length; i++) {
+		sections[i].classList.add('sectionHide');
+	}
+	portfolioSec.classList.remove('sectionHide')
+})
+
+resumeSecLink.addEventListener('click' , function(e) {
+	for(var i = 0; i < sections.length; i++) {
+		sections[i].classList.add('sectionHide');
+	}
+	resumeSec.classList.remove('sectionHide')
+})
+
 
 // aside colors
 
