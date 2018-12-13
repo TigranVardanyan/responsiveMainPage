@@ -6,7 +6,7 @@
 		<div class="row justify-content-center">
 			<?php require_once('navbar.php'); ?>
 		</div>
-		<div class="row justify-content-center">
+		<div class="row content-parent justify-content-center">
 			<div class="container content col-12">
 				<div class="row align-items-center justify-content-around">
 					<div class="content_heaer cChange col-12">
@@ -72,7 +72,10 @@
 			<footer>© 2017 All rights reserved.</footer>
 		</div>
 	</div>
-
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

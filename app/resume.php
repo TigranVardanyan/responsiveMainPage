@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php require_once('head.php'); ?>
-<body>
-	<div class="container-fluid wrapper">
-		<div class="row justify-content-center">
-			<?php require_once('navbar.php'); ?>
-		</div>
-		<div class="row justify-content-center">
 			<div class="container-fluid content col-12">
 				<div class="row align-items-center justify-content-between">
 					<div class="content_heaer cChange col-12">
@@ -54,19 +45,3 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row justify-content-center">
-			<footer>© 2017 All rights reserved.</footer>
-		</div>
-	</div>
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script src="js/script.js"></script>
-</body>
-</html>

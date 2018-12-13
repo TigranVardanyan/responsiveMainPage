@@ -15,6 +15,7 @@ var navUlLi = document.querySelectorAll('.navbar ul li');
 var navUl = document.querySelector('.navbar ul');
 var wrapper = document.querySelector('.wrapper');
 var windowSize;
+var ajax = document.querySelector('#ajax');
 // aside vars
 var switcher = document.getElementById('switch');
 var pageColor = document.querySelector('aside div.page_color');
@@ -55,7 +56,13 @@ cross.addEventListener('click' , () => {
 })
 
 
+//ajax
 
+ajax.addEventListener('click' , function() {
+	$('.contentParent').remove();
+	$('.content').load("resume.php");
+
+})
 
 // aside colors
 
