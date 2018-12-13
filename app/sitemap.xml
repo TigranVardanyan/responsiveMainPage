@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://mydailycode.ru/</loc>
+	<lastmod>2018-12-13T01:13:16+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://mydailycode.ru/index.php</loc>
+	<lastmod>2018-12-13T01:13:16+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://mydailycode.ru/portfolio.php</loc>
+	<lastmod>2018-12-13T01:13:16+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://mydailycode.ru/404.php</loc>
+	<lastmod>2018-12-13T01:13:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://mydailycode.ru/TigranVardanyan.pdf</loc>
+	<lastmod>2018-12-13T01:13:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>

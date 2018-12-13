@@ -59,3 +59,12 @@ gulp.task('build' , ['clean' , 'sass'], function() {
 	var fav = gulp.src([
 		'app/*.ico'])
 		.pipe(gulp.dest('dist/'));
+	var robots = gulp.src([
+		'app/robots.txt'])
+		.pipe(gulp.dest('dist/'));
+	var sitemap = gulp.src([
+		'app/sitemap.xml'])
+		.pipe(gulp.dest('dist/'));
+	var cv = gulp.src([
+		'app/*.pdf'])
+		.pipe(gulp.dest('dist/'));

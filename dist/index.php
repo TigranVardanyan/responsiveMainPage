@@ -39,7 +39,7 @@
 						</div>
 					</div>
 					<div class="content_main col-12">
-						<div class="container home page">
+						<div class="container-fluid home page">
 							<div class="row align-items-center justify-content-center">
 								<div class="abouteMe col-12 col-lg-5">
 									<h3>Aboute <span class="cChange">Me</span></h3>
@@ -47,7 +47,7 @@
 									<a download="" href="TigranVardanyan.pdf">Download resume</a>
 								</div>
 								<div class="adminData col-12 col-lg-7">
-									<div class="container">
+									<div class="container-fluid">
 										<div class="row align-items-center">
 											<div class="data-Q col-12">
 												<ul>

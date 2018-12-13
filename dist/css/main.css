@@ -71,7 +71,9 @@
       html body .wrapper .content .content_heaer .avatar img {
         top: 0px; }
     html body .wrapper .content .content_heaer .view .social-links {
-      padding-bottom: 8px; } }
+      padding-bottom: 8px; }
+    html body .wrapper .content .content_main {
+      padding: 3px; } }
 
 @media screen and (max-device-width: 992px) {
   html {

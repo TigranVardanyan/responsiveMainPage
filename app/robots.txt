@@ -4,12 +4,18 @@ Disallow: /catalogs/
 
 # Rule 2
 User-agent: *
-Allow: /revers/
+Disallow: /revers/
 
 # Rule 3
 User-agent: *
-Allow: /test/
+Disallow: /test/
 
 # Rule 4
 User-agent: *
-Allow: /test1/
+Disallow: /test1/
+
+# Rule 5
+User-agent: *
+Disallow: /catalogs/
+
+Sitemap: http://mydailycode.ru/sitemap.xml

@@ -298,6 +298,68 @@ body {
 					}
 				}
 			}
+			.resume {
+				.timeline_education , .timeline_experience {
+					width: 46%;
+					h1 {
+						font-family: "Montserrat" ,  sans-serif;
+					}
+					.education , .experience {
+						border-left: 2px solid #e0e0e0;
+						.educations , .experiences {
+							border: 2px solid #e0e0e0;
+							border-left: 2px solid var(--primary-color);
+							margin-left: 20px;
+							position: relative;
+							padding: 10px;
+							margin-bottom: 10px;
+							font-family: "Roboto";
+							h3 {
+								margin: 0;
+								font-family: "Montserrat" ,  sans-serif;
+							}
+							a {
+								display: block;
+								font-family: Montserrat, sans-serif;
+								font-size: 18.72px;
+								font-weight: 700;									
+							}
+							.span_date {
+								color: var(--primary-color);
+								font-size: 0.8rem;
+							}
+							.span_location {
+								color: #9e9e9e;
+							}
+							&::before {
+								display: block;
+							    position: absolute;
+							    top: 16px;
+    							left: -28.3px;
+							    content: "";
+							    height: 12px;
+							    width: 12px;
+							    border-radius: 50%;
+							    border: 2px solid #48a7f3;
+							    background-color: #ffffff;
+							}
+							&::after {
+							    display: block;
+							    position: absolute;
+							    content: "";
+							    height: 2px;
+						        width: 19px;
+							    background-color: #48a7f3;
+							    top: 21px;
+							    left: -19px;
+							}
+							&:hover {
+								box-shadow: 1px 0px 3px 0px #b3b2b2;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
