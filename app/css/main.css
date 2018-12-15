@@ -481,10 +481,10 @@ body .content {
             position: absolute;
             content: "";
             height: 2px;
-            width: 17px;
+            width: 19px;
             background-color: #48a7f3;
             top: 21px;
-            left: -18px; }
+            left: -19px; }
           body .content .content_main .resume .timeline_education .education .educations:hover, body .content .content_main .resume .timeline_education .education .experiences:hover, body .content .content_main .resume .timeline_education .experience .educations:hover, body .content .content_main .resume .timeline_education .experience .experiences:hover, body .content .content_main .resume .timeline_experience .education .educations:hover, body .content .content_main .resume .timeline_experience .education .experiences:hover, body .content .content_main .resume .timeline_experience .experience .educations:hover, body .content .content_main .resume .timeline_experience .experience .experiences:hover {
             -webkit-box-shadow: 1px 0px 3px 0px #b3b2b2;
                     box-shadow: 1px 0px 3px 0px #b3b2b2; }

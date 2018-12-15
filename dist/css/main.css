@@ -437,57 +437,6 @@ body .content {
       body .content .content_main .portfolio .resume .resumes:hover {
         -webkit-box-shadow: 1px 0px 3px 0px #b3b2b2;
                 box-shadow: 1px 0px 3px 0px #b3b2b2; }
-    body .content .content_main .resume .timeline_education, body .content .content_main .resume .timeline_experience {
-      width: 46%; }
-      body .content .content_main .resume .timeline_education h1, body .content .content_main .resume .timeline_experience h1 {
-        font-family: "Montserrat" ,  sans-serif; }
-      body .content .content_main .resume .timeline_education .education, body .content .content_main .resume .timeline_education .experience, body .content .content_main .resume .timeline_experience .education, body .content .content_main .resume .timeline_experience .experience {
-        border-left: 2px solid #e0e0e0; }
-        body .content .content_main .resume .timeline_education .education .educations, body .content .content_main .resume .timeline_education .education .experiences, body .content .content_main .resume .timeline_education .experience .educations, body .content .content_main .resume .timeline_education .experience .experiences, body .content .content_main .resume .timeline_experience .education .educations, body .content .content_main .resume .timeline_experience .education .experiences, body .content .content_main .resume .timeline_experience .experience .educations, body .content .content_main .resume .timeline_experience .experience .experiences {
-          border: 2px solid #e0e0e0;
-          border-left: 2px solid var(--primary-color);
-          margin-left: 20px;
-          position: relative;
-          padding: 10px;
-          margin-bottom: 10px;
-          font-family: "Roboto"; }
-          body .content .content_main .resume .timeline_education .education .educations h3, body .content .content_main .resume .timeline_education .education .experiences h3, body .content .content_main .resume .timeline_education .experience .educations h3, body .content .content_main .resume .timeline_education .experience .experiences h3, body .content .content_main .resume .timeline_experience .education .educations h3, body .content .content_main .resume .timeline_experience .education .experiences h3, body .content .content_main .resume .timeline_experience .experience .educations h3, body .content .content_main .resume .timeline_experience .experience .experiences h3 {
-            margin: 0;
-            font-family: "Montserrat" ,  sans-serif; }
-          body .content .content_main .resume .timeline_education .education .educations a, body .content .content_main .resume .timeline_education .education .experiences a, body .content .content_main .resume .timeline_education .experience .educations a, body .content .content_main .resume .timeline_education .experience .experiences a, body .content .content_main .resume .timeline_experience .education .educations a, body .content .content_main .resume .timeline_experience .education .experiences a, body .content .content_main .resume .timeline_experience .experience .educations a, body .content .content_main .resume .timeline_experience .experience .experiences a {
-            display: block;
-            font-family: Montserrat, sans-serif;
-            font-size: 18.72px;
-            font-weight: 700; }
-          body .content .content_main .resume .timeline_education .education .educations .span_date, body .content .content_main .resume .timeline_education .education .experiences .span_date, body .content .content_main .resume .timeline_education .experience .educations .span_date, body .content .content_main .resume .timeline_education .experience .experiences .span_date, body .content .content_main .resume .timeline_experience .education .educations .span_date, body .content .content_main .resume .timeline_experience .education .experiences .span_date, body .content .content_main .resume .timeline_experience .experience .educations .span_date, body .content .content_main .resume .timeline_experience .experience .experiences .span_date {
-            color: var(--primary-color);
-            font-size: 0.8rem; }
-          body .content .content_main .resume .timeline_education .education .educations .span_location, body .content .content_main .resume .timeline_education .education .experiences .span_location, body .content .content_main .resume .timeline_education .experience .educations .span_location, body .content .content_main .resume .timeline_education .experience .experiences .span_location, body .content .content_main .resume .timeline_experience .education .educations .span_location, body .content .content_main .resume .timeline_experience .education .experiences .span_location, body .content .content_main .resume .timeline_experience .experience .educations .span_location, body .content .content_main .resume .timeline_experience .experience .experiences .span_location {
-            color: #9e9e9e; }
-          body .content .content_main .resume .timeline_education .education .educations::before, body .content .content_main .resume .timeline_education .education .experiences::before, body .content .content_main .resume .timeline_education .experience .educations::before, body .content .content_main .resume .timeline_education .experience .experiences::before, body .content .content_main .resume .timeline_experience .education .educations::before, body .content .content_main .resume .timeline_experience .education .experiences::before, body .content .content_main .resume .timeline_experience .experience .educations::before, body .content .content_main .resume .timeline_experience .experience .experiences::before {
-            display: block;
-            position: absolute;
-            top: 16px;
-            left: -28.3px;
-            content: "";
-            height: 12px;
-            width: 12px;
-            -webkit-border-radius: 50%;
-                    border-radius: 50%;
-            border: 2px solid #48a7f3;
-            background-color: #ffffff; }
-          body .content .content_main .resume .timeline_education .education .educations::after, body .content .content_main .resume .timeline_education .education .experiences::after, body .content .content_main .resume .timeline_education .experience .educations::after, body .content .content_main .resume .timeline_education .experience .experiences::after, body .content .content_main .resume .timeline_experience .education .educations::after, body .content .content_main .resume .timeline_experience .education .experiences::after, body .content .content_main .resume .timeline_experience .experience .educations::after, body .content .content_main .resume .timeline_experience .experience .experiences::after {
-            display: block;
-            position: absolute;
-            content: "";
-            height: 2px;
-            width: 17px;
-            background-color: #48a7f3;
-            top: 21px;
-            left: -18px; }
-          body .content .content_main .resume .timeline_education .education .educations:hover, body .content .content_main .resume .timeline_education .education .experiences:hover, body .content .content_main .resume .timeline_education .experience .educations:hover, body .content .content_main .resume .timeline_education .experience .experiences:hover, body .content .content_main .resume .timeline_experience .education .educations:hover, body .content .content_main .resume .timeline_experience .education .experiences:hover, body .content .content_main .resume .timeline_experience .experience .educations:hover, body .content .content_main .resume .timeline_experience .experience .experiences:hover {
-            -webkit-box-shadow: 1px 0px 3px 0px #b3b2b2;
-                    box-shadow: 1px 0px 3px 0px #b3b2b2; }
 
 footer {
   margin-top: 10px; }
