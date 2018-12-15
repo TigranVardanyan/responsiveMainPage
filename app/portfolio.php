@@ -1,4 +1,12 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<?php require_once('head.php'); ?>
+<body>
+	<div class="container-fluid wrapper">
+		<div class="row justify-content-center">
+			<?php require_once('navbar.php'); ?>
+		</div>
+		<div class="row justify-content-center">
 			<div class="container content col-12">
 				<div class="row align-items-center justify-content-around">
 					<div class="content_heaer cChange col-12">
@@ -11,6 +19,10 @@
 					<div class="content_main col-12">
 						<div class="container portfolio page">
 							<div class="resume cChange">
+								<div class="resumes cChange">
+									<a href="/catalogs/layout3/">Layout(adaptive)</a>
+									<p><span class="span_date">2018</span><span class="span_location">|</span></p>
+								</div>
 								<div class="resumes cChange">
 									<a href="/catalogs/blog/">My blog</a>
 									<p><span class="span_date">2018</span><span class="span_location">|</span></p>
@@ -80,3 +92,19 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="row justify-content-center">
+			<footer>© 2017 All rights reserved.</footer>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

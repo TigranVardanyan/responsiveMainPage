@@ -1,11 +1,6 @@
 //main vars
 var pages = document.querySelector('.navbar ul');
 var link = document.querySelectorAll('.navbar ul li');
-var homeSec = document.querySelector('#home-sec');
-var portSec = document.querySelector('#port-sec');
-var servSec = document.querySelector('#serv-sec');
-var resSec = document.querySelector('#res-sec');
-var sections = document.querySelectorAll('section')
 var page = document.querySelectorAll('.page');
 var home = document.querySelectorAll('.home');
 var portfolio = document.querySelectorAll('.portfolio');
@@ -20,7 +15,6 @@ var navUlLi = document.querySelectorAll('.navbar ul li');
 var navUl = document.querySelector('.navbar ul');
 var wrapper = document.querySelector('.wrapper');
 var windowSize;
-var ajax = document.querySelector('#ajax');
 // aside vars
 var switcher = document.getElementById('switch');
 var pageColor = document.querySelector('aside div.page_color');
@@ -60,10 +54,7 @@ cross.addEventListener('click' , () => {
 	}
 })
 
-//link------------------------------------------------------
-homeSec.addEventListener('click' , function(e) {
-	
-})
+
 
 
 // aside colors
