@@ -69,16 +69,16 @@
 					</div>
 				</div>
 			</section>
-			<section id="portfolio-sec">
+			<section class="sectionHide" id="portfolio-sec">
 				<?php require_once('portfolio.php') ?>
 			</section>
-			<section id="service-sec"></section>
-			<section id="resume-sec">
+			<section class="sectionHide" id="service-sec"></section>
+			<section class="sectionHide" id="resume-sec">
 				<?php require_once('resume.php') ?>
 			</section>
-			<section id="blog-sec"></section>
-			<section id="contact-sec"></section>
-			<section id="extra-sec"></section>
+			<section class="sectionHide" id="blog-sec"></section>
+			<section class="sectionHide" id="contact-sec"></section>
+			<section class="sectionHide" id="extra-sec"></section>
 		</div>
 		<div class="row justify-content-center">
 			<footer>© 2017 All rights reserved.</footer>

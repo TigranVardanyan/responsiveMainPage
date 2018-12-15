@@ -65,21 +65,21 @@ cross.addEventListener('click' , () => {
 })
 
 //link------------------------------------------------------
-homeSecLink.addEventListener('click' , function(e) {
+homeSecLink.addEventListener('submit' , function(e) {
 	for(var i = 0; i < sections.length; i++) {
 		sections[i].classList.add('sectionHide');
 	}
 	homeSec.classList.remove('sectionHide')
 })
 
-portfolioSecLink.addEventListener('click' , function(e) {
+portfolioSecLink.addEventListener('submit' , function(e) {
 	for(var i = 0; i < sections.length; i++) {
 		sections[i].classList.add('sectionHide');
 	}
 	portfolioSec.classList.remove('sectionHide')
 })
 
-resumeSecLink.addEventListener('click' , function(e) {
+resumeSecLink.addEventListener('submit' , function(e) {
 	for(var i = 0; i < sections.length; i++) {
 		sections[i].classList.add('sectionHide');
 	}
