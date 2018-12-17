@@ -244,6 +244,7 @@ body {
 			}
 			.portfolio {
 				.resume {
+					border-left: 2px solid #e0e0e0; 
 					.resumes {
 						border: 2px solid #e0e0e0;
 						border-left: 2px solid var(--primary-color);
@@ -357,6 +358,44 @@ body {
 								box-shadow: 1px 0px 3px 0px #b3b2b2;
 							}
 						}
+					}
+				}
+			}
+			.reviews {
+				display: flex;
+				flex-direction: column;
+				.reviews_cantainer {
+					margin: 30px;
+					text-align: center;
+					.submit {
+						.forma {
+							display: flex;
+							flex-direction: row;
+							justify-content: center;
+							align-items: center;
+							position: relative;
+							.inputText {
+								border: 2px solid grey;
+					    		border-radius: 6px;
+					    	    width: 270px;
+					    		padding-left: 7px;
+							}
+							.submit {
+								position: absolute;
+								top: 0;
+								right: 0;
+								border-radius: 0 6px 6px 0;
+								background-color: transparent;
+								border: 1px solid transparent;
+								border-left: 1px solid grey;
+								outline: none
+							}
+						}
+					}
+					p {
+						display: inline-block;
+						margin: 5px;
+						padding: 5px;
 					}
 				}
 			}

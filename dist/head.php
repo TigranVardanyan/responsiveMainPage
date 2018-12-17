@@ -1,3 +1,4 @@
+<?php require_once('logic/db.php') ?>
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129274133-1"></script>
