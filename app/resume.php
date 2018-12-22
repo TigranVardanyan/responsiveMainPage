@@ -2,7 +2,7 @@
 <html lang="en">
 <?php require_once('head.php'); ?>
 <body>
-	<div class="container-fluid wrapper">
+	<div class="container wrapper">
 		<div class="row justify-content-center">
 			<?php require_once('navbar.php'); ?>
 		</div>
