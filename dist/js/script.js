@@ -23,17 +23,22 @@ var colors = document.querySelector('.page_color .colors');
 var toolbarColor = document.querySelectorAll('.page_color .colors .color');
 var cChange = document.querySelectorAll('.cChange');
 
-//вывод цвета с локалсторидж
-document.addEventListener("DOMContentLoaded", () => {
-	for(var i = 0; i < toolbarColor.length; i++) {
-		toolbarColor[i].innerHTML = "";   //удаляет все "птички" с цветов
-	}
-	console.log(localStorage.getItem('targetColor'));
-	document.getElementById(localStorage.getItem('targetColor')).innerHTML = '<i class="fas fa-check"></i>';
-	for(var i = 0; i < cChange.length; i++) {  // всем элементам с классом cChange устанавливает css переменной
-		cChange[i].style.setProperty('--primary-color', localStorage.getItem('targetColor')); // --primary-color значение k(выбранный цвет)
-	}
-});
+//вывод цвета с локалсторидж --------- перенесен в sidebar.php
+// document.addEventListener("DOMContentLoaded", () => {
+// 	if(localStorage.getItem('targetColor')) {
+//
+// 	} else {
+// 		localStorage.setItem('targetColor' , "#2196F3")
+// 	}
+// 	for(var i = 0; i < toolbarColor.length; i++) {
+// 		toolbarColor[i].innerHTML = "";   //удаляет все "птички" с цветов
+// 	}
+// 	console.log(localStorage.getItem('targetColor'));
+// 	document.getElementById(localStorage.getItem('targetColor')).innerHTML = '<i class="fas fa-check"></i>';
+// 	for(var i = 0; i < cChange.length; i++) {  // всем элементам с классом cChange устанавливает css переменной
+// 		cChange[i].style.setProperty('--primary-color', localStorage.getItem('targetColor')); // --primary-color значение k(выбранный цвет)
+// 	}
+// });
 
 
 
