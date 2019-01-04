@@ -13,12 +13,16 @@ gulp.task('sass', function(){ // Создаем таск Sass
 });
 
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
-    browserSync({ // Выполняем browserSync
+	/*browserSync({ // Выполняем browserSync
         server: { // Определяем параметры сервера
             baseDir: 'app' // Директория для сервера - app
         },
         notify: false // Отключаем уведомления
-    });
+    });*/
+	browserSync.init({
+		proxy: "localhost/web(7)/Projects/project_mainPage/responsiveMainPage/app",
+		port: 8000
+	});
 });
 
 gulp.task('clean', function() {
