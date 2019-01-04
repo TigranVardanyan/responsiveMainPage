@@ -37,5 +37,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
 	<!-- Main -->
+
 	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/social_buttons.css">
 </head>

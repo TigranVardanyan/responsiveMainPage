@@ -38,7 +38,7 @@ gulp.task('watch', ['browser-sync', 'sass'], function() {
 });
 gulp.task('build' , ['clean' , 'sass'], function() {
 	var buildCss = gulp.src([
-		'app/css/main.css'
+		'app/css/**/*.css'
 		])
 		.pipe(gulp.dest('dist/css'));
 	})

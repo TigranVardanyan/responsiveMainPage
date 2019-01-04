@@ -230,7 +230,8 @@ body .content {
                   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3); }
     body .content .content_heaer .view {
       color: #ffffff;
-      text-align: center; }
+      text-align: center;
+      position: relative; }
       body .content .content_heaer .view .title_block {
         display: -webkit-box;
         display: -webkit-flex;
