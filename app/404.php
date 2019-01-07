@@ -21,5 +21,12 @@
 			</div>
 		</div>
 	</div>
+    <div class="row justify-content-center">
+        <footer>© 2017 All rights reserved.</footer>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>

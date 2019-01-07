@@ -222,6 +222,8 @@ body {
 					display: flex;
 					flex-direction: column;
 					color: #424242;
+					margin: 0;
+					padding: 0;
 					ul {
 						line-height: 25px;
 						list-style: none;
@@ -266,7 +268,7 @@ body {
 							text-decoration: none;								
 						}
 						.span_date {
-							color: var(--primary-color);
+							//color: var(--primary-color);
 							font-size: 0.8rem;
 						}
 						.span_location {
@@ -276,23 +278,23 @@ body {
 							display: block;
 						    position: absolute;
 						    top: 16px;
-    						left: -27px;
+    						left: -28.5px;
 						    content: "";
 						    height: 12px;
 						    width: 12px;
 						    border-radius: 50%;
-						    border: 2px solid #48a7f3;
-						    background-color: #ffffff;
+						    border: 2px solid var(--primary-color);
+						    background-color: white;
 						}
 						&::after {
-						    display: block;
-						    position: absolute;
-						    content: "";
-						    height: 2px;
-						    width: 14px;
-						    background-color: #48a7f3;
-						    top: 21px;
-						    left: -16px;
+							display: block;
+							position: absolute;
+							content: "";
+							height: 2px;
+							width: 16px;
+							background-color: var(--primary-color);
+							top: 21px;
+							left: -17px;
 						}
 						&:hover {
 							box-shadow: 1px 0px 3px 0px #b3b2b2;

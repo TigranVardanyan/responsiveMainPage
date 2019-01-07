@@ -29,10 +29,10 @@
 										</h3>
 									</div>
 									<div class="social-links_new">
-										<a class="soc_btn" href="https://www.facebook.com/profile.php?id=100005146777210"><i class="fab fa-facebook-f"></i></a>
-										<a class="soc_btn" href="https://www.instagram.com/tig.vardanyan/"><i class="fab fa-instagram"></i></a>
-										<a class="soc_btn" href="https://ru.stackoverflow.com/users/299327/tigran-vardanyan"><i class="fab fa-stack-overflow"></i></a>
-										<a class="soc_btn" href="https://github.com/TigranVardanyan"><i class="fab fa-github-alt"></i></a>
+										<a class="soc_btn cChange" href="https://www.facebook.com/profile.php?id=100005146777210"><i class="fab fa-facebook-f"></i></a>
+										<a class="soc_btn cChange" href="https://www.instagram.com/tig.vardanyan/"><i class="fab fa-instagram"></i></a>
+										<a class="soc_btn cChange" href="https://ru.stackoverflow.com/users/299327/tigran-vardanyan"><i class="fab fa-stack-overflow"></i></a>
+										<a class="soc_btn cChange" href="https://github.com/TigranVardanyan"><i class="fab fa-github-alt"></i></a>
 									</div>
 								</div>
 							</div>

@@ -1,5 +1,6 @@
 :root {
     --soc_btn_size: 60px; /* размер иконок */
+    --primary-color: #2196f3;
 }
 
 body {
@@ -21,9 +22,14 @@ body {
     border-radius: 30%;
     border: 3px solid #f1f1f1;
     box-shadow: 0 5px 15px -5px #00000070;
-    color: #7e6df6;
+    color: var(--primary-color);
     overflow: hidden;
     position: relative;
+
+}
+
+.soc_btn a .cChange {
+    color: var(--primary-color);
 }
 
 .soc_btn i {
