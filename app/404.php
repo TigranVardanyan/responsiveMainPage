@@ -9,7 +9,7 @@
 		<div class="row justify-content-center">
 			<div class="container content col-12">
 				<div class="row align-items-center">
-					<div class="content_heaer cChange col-12">
+					<div class="content_header cChange col-12">
 						<h1>Oops!!!</h1> <br>
 					</div>
 					<div class="container-fluid content_main col-12">

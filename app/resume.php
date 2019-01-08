@@ -9,7 +9,7 @@
 		<div class="row justify-content-center">
 			<div class="container-fluid content col-12">
 				<div class="row align-items-center justify-content-between">
-					<div class="content_heaer cChange col-12">
+					<div class="content_header cChange col-12">
 						<div class="container portfolio page">
 							<div class="row align-items-center justify-content-center">
 								<h1>Resume</h1>

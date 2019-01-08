@@ -22,6 +22,7 @@ var cog = document.querySelector('.fa-cog');
 var colors = document.querySelector('.page_color .colors');
 var toolbarColor = document.querySelectorAll('.page_color .colors .color');
 var cChange = document.querySelectorAll('.cChange');
+var resizeTimeout; // для ограничения частоты ресайза
 
 //вывод цвета с локалсторидж --------- перенесен в sidebar.php
 // document.addEventListener("DOMContentLoaded", () => {
@@ -41,8 +42,14 @@ var cChange = document.querySelectorAll('.cChange');
 // });
 
 
+window.onresize = function() {
+	if (resizeTimeout) {
+		clearTimeout(resizeTimeout);
+	}
+	resizeTimeout = setTimeout(resize
+	, 500);
+};
 
-window.onresize = resize;
 document.addEventListener("DOMContentLoaded", resize);
 
 
@@ -54,6 +61,11 @@ function resize() {
 	} else {
 		wrapper.classList.remove('container-fluid');
 		wrapper.classList.add('container');
+	}
+	if (windowSize < 768) {
+		pageColor.classList.remove('page_color_hide');
+	}  else {
+		pageColor.classList.add('page_color_hide');
 	}
 }
 

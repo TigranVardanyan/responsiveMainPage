@@ -6,7 +6,7 @@
 		body {
 			.wrapper {
 				.content {
-					.content_heaer {
+					.content_header {
 						.avatar {
 							padding: 8px 0 8px;
 							img {
@@ -21,6 +21,11 @@
 					}
 					.content_main {
 						padding: 3px;
+						.service {
+							&_services > div{
+								min-width: 100%;
+							}
+						}
 					}
 				}
 			}
@@ -62,7 +67,7 @@
 				}
 			}
 			.content {
-				.content_heaer {
+				.content_header {
 					.avatar {
 						padding: 8px 0 8px;
 						img {
