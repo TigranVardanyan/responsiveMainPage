@@ -1,12 +1,12 @@
 <div class="header-nav col">
 	<div class="container">
 		<div class="row align-items-center justify-content-around">
-			<div class="header col-8 col-lg-3">
+			<div class="header col-8 col-md-5 col-lg-3">
 				<div class="author">
 					<h1>Tigran <span class="cChange">Vardanyan</span></h1>
 				</div>
 			</div>
-			<div class="navbar col-4 col-lg-9">
+			<div class="navbar col-4 col-md-7 col-lg-9">
 				<ul class="justify-content-around">
 					<li class="cross hide"><a><i class="fas fa-bars"></i></a></li>
 					<li class="hide"><a href="index.php">Home</a></li>

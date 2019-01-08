@@ -22,15 +22,15 @@
 								<div class="timeline_education col-lg-6 col-12">
 									<h1>Education</h1>
 									<div class="education">
-										<div class="education_one educations">
+										<div class="education_one educations cChange">
 											<h3>Lorem ipsum.</h3>
 											<p><span class="span_date">2013-2019 </span><span class="span_location">|  Lorem ipsum.</span></p>
 										</div>
-										<div class="education_two educations">
+										<div class="education_two educations cChange">
 											<h3>Lorem ipsum.</h3>
 											<p><span class="span_date">2009-2013 </span><span class="span_location">|  Lorem ipsum.</span></p>
 										</div>
-										<div class="education_three educations">
+										<div class="education_three educations cChange">
 											<h3>Lorem ipsum.</h3>
 											<p><span class="span_date">2001-2009 </span><span class="span_location">|  Lorem ipsum.</span></p>
 										</div>
@@ -39,11 +39,11 @@
 								<div class="timeline_experience col-lg-6 col-12">
 									<h1>Experience</h1>
 									<div class="experience">
-										<div class="experiance_one experiences">
+										<div class="experiance_one experiences cChange">
 											<h3>Lorem ipsum.</h3>
 											<p><span class="span_date">2016-2018 </span><span class="span_location">|  lorem</span></p>
 										</div>
-										<div class="experiance_two experiences">
+										<div class="experiance_two experiences cChange">
 											<h3>Lorem ipsum.</h3>
 											<p><span class="span_date">2016-2017 </span><span class="span_location">|  Lorem</span></p>
 										</div>

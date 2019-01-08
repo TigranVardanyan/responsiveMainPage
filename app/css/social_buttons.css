@@ -47,7 +47,7 @@ body {
     position: absolute;
     width: 120%;
     height: 120%;
-    background-color: #3498db;
+    background-color: var(--primary-color);
     transform: rotate(45deg);
     left: -110%;
     top: 90%;

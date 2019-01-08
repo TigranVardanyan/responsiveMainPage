@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", resize);
 
 
 function resize() {
-	windowSize = document.documentElement.clientWidth;
+	windowSize = window.innerWidth;
 	if(windowSize < 992) {
 		wrapper.classList.add('container-fluid');
 		wrapper.classList.remove('container');

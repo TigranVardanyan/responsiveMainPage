@@ -20,7 +20,7 @@
                     <div class="container service">
                         <div class="row service_header">
                             <div class="col-12">
-                                <h2>My <span>services</span></h2>
+                                <h2>My <span class="cChange">services</span></h2>
                             </div>
                         </div>
                         <div class="row service_services">
