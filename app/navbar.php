@@ -14,7 +14,7 @@
 					<li class="hide"><a href="service.php">Service</a></li>
 					<li class="hide"><a href="resume.php">Resume</a></li>
 					<li class="hide"><a href="reviews.php">Reviews</a></li>
-					<li class="hide"><a href="404.php">Contact</a></li>
+					<li class="hide"><a href="contact.php">Contact</a></li>
 					<li class="hide"><a href="404.php">Extra</a></li>
 				</ul>
 			</div>
