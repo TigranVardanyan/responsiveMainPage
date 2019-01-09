@@ -40,4 +40,5 @@
 
 	<link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/social_buttons.css">
+    <link rel="stylesheet" href="css/contact_form.css">
 </head>

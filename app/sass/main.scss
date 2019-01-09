@@ -175,9 +175,9 @@ body {
 			}
 		}
 		.content_main {
-			padding: 50px;
+			padding-bottom: 35px;
 			height: auto;
-			padding-top: 75px;
+			padding-top: 25px;
 			background-color: white;
 			display: flex;
 			flex-direction: row;
@@ -308,6 +308,9 @@ body {
 					width: 46%;
 					h1 {
 						font-family: "Montserrat" ,  sans-serif;
+						color: #1f1f1f;
+						font-size: 1.5rem;
+						padding: 8px 8px 8px 0px;
 					}
 					.education , .experience {
 						border-left: 2px solid #e0e0e0;
@@ -475,7 +478,76 @@ body {
 				}
 			}
 			.contact {
-				&_info {
+				.cChange {
+					color: var(--primary-color);
+				}
+
+				&_info-list {
+					#ymaps1546991371426405534 {
+						padding: 10px;
+						transform: scale(0.9);
+					}
+					.info {
+						display: flex;
+						flex-direction: column;
+						&_el {
+							display: flex;
+							flex-direction: row;
+							align-items: center;
+							margin: 5px;
+							i {
+								padding: 10px;
+								border-radius: 50%;
+								background-color: #fafafa;
+								margin: 0 15px;
+							}
+						}
+					}
+				}
+				&_form {
+					form {
+						display: flex;
+						flex-direction: column;
+					}
+					&_user , &_message , &_email {
+						position: relative;
+						height: 50px;
+						display: flex;
+						margin: 10px;
+						border: none;
+						border-bottom: 1px solid #bdbdbd;
+						i {
+							background-color: #fafafa;
+							color: #bdbdbd;
+							border: none;
+							border-bottom: 1px solid #bdbdbd;
+							.cChange {
+								color: var(--primary-color);
+							}
+						}
+						label {
+							color: #bdbdbd;
+							user-select: none;
+						}
+						input {
+							border: none;
+							border-bottom: 1px solid #bdbdbd;
+							padding-left: 5px;
+						}
+						textarea {
+							border: none;
+							border-bottom: 1px solid #bdbdbd;
+							padding-left: 5px;
+							padding-top: 14px;
+						}
+					}
+					&_message {
+						height: auto;
+						i {
+							display: inline-block!important;
+							height: auto!important;
+						}
+					}
 
 				}
 			}
