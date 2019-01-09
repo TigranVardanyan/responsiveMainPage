@@ -313,9 +313,9 @@ body {
                   -ms-flex-align: center;
                       align-items: center; }
     body .content .content_main {
-      padding: 50px;
+      padding-bottom: 35px;
       height: auto;
-      padding-top: 75px;
+      padding-top: 25px;
       background-color: white;
       display: -webkit-box;
       display: -webkit-flex;
@@ -448,7 +448,10 @@ body {
       body .content .content_main .resume .timeline_education, body .content .content_main .resume .timeline_experience {
         width: 46%; }
         body .content .content_main .resume .timeline_education h1, body .content .content_main .resume .timeline_experience h1 {
-          font-family: "Montserrat" ,  sans-serif; }
+          font-family: "Montserrat" ,  sans-serif;
+          color: #1f1f1f;
+          font-size: 1.5rem;
+          padding: 8px 8px 8px 0px; }
         body .content .content_main .resume .timeline_education .education, body .content .content_main .resume .timeline_education .experience, body .content .content_main .resume .timeline_experience .education, body .content .content_main .resume .timeline_experience .experience {
           border-left: 2px solid #e0e0e0; }
           body .content .content_main .resume .timeline_education .education .educations, body .content .content_main .resume .timeline_education .education .experiences, body .content .content_main .resume .timeline_education .experience .educations, body .content .content_main .resume .timeline_education .experience .experiences, body .content .content_main .resume .timeline_experience .education .educations, body .content .content_main .resume .timeline_experience .education .experiences, body .content .content_main .resume .timeline_experience .experience .educations, body .content .content_main .resume .timeline_experience .experience .experiences {
@@ -640,6 +643,91 @@ body {
           background-position: center center; }
         body .content .content_main .service .img_layout:hover, body .content .content_main .service .img_optimization:hover, body .content .content_main .service .img_management:hover, body .content .content_main .service .img_programming:hover {
           background-position: center 60%; }
+      body .content .content_main .contact .cChange {
+        color: var(--primary-color); }
+      body .content .content_main .contact_info-list #ymaps1546991371426405534 {
+        padding: 10px;
+        -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+                transform: scale(0.9); }
+      body .content .content_main .contact_info-list .info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        body .content .content_main .contact_info-list .info_el {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin: 5px; }
+          body .content .content_main .contact_info-list .info_el i {
+            padding: 10px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            background-color: #fafafa;
+            margin: 0 15px; }
+      body .content .content_main .contact_form form {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+      body .content .content_main .contact_form_user, body .content .content_main .contact_form_message, body .content .content_main .contact_form_email {
+        position: relative;
+        height: 50px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 10px;
+        border: none;
+        border-bottom: 1px solid #bdbdbd; }
+        body .content .content_main .contact_form_user i, body .content .content_main .contact_form_message i, body .content .content_main .contact_form_email i {
+          background-color: #fafafa;
+          color: #bdbdbd;
+          border: none;
+          border-bottom: 1px solid #bdbdbd; }
+          body .content .content_main .contact_form_user i .cChange, body .content .content_main .contact_form_message i .cChange, body .content .content_main .contact_form_email i .cChange {
+            color: var(--primary-color); }
+        body .content .content_main .contact_form_user label, body .content .content_main .contact_form_message label, body .content .content_main .contact_form_email label {
+          color: #bdbdbd;
+          -webkit-user-select: none;
+             -moz-user-select: none;
+              -ms-user-select: none;
+                  user-select: none; }
+        body .content .content_main .contact_form_user input, body .content .content_main .contact_form_message input, body .content .content_main .contact_form_email input {
+          border: none;
+          border-bottom: 1px solid #bdbdbd;
+          padding-left: 5px; }
+        body .content .content_main .contact_form_user textarea, body .content .content_main .contact_form_message textarea, body .content .content_main .contact_form_email textarea {
+          border: none;
+          border-bottom: 1px solid #bdbdbd;
+          padding-left: 5px;
+          padding-top: 14px; }
+      body .content .content_main .contact_form_message {
+        height: auto; }
+        body .content .content_main .contact_form_message i {
+          display: inline-block !important;
+          height: auto !important; }
 
 footer {
   margin-top: 10px; }
