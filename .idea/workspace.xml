@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fa7824a-ca8b-4e4d-9708-67bf7e3adbbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/TigranVardanyan.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/contact_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/contact_form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/logic/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/logic/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="8fa7824a-ca8b-4e4d-9708-67bf7e3adbbd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,18 +258,17 @@
       <workItem from="1546951198894" duration="18900000" />
       <workItem from="1546983952077" duration="9138000" />
       <workItem from="1547091378906" duration="892000" />
-      <workItem from="1547175787317" duration="2603000" />
+      <workItem from="1547175787317" duration="2734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45431000" />
+    <option name="totallyTimeSpent" value="45562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -299,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21966206" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21966206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
