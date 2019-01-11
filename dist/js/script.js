@@ -105,8 +105,6 @@ switcher.addEventListener('mouseout' , ()=> {    // анимация при hove
 
 })
 
-
-
 colors.addEventListener('click' , function(e) {
 	localStorage.setItem('targetColor', e.target.id);
 	// console.log(localStorage.getItem('targetColor'))

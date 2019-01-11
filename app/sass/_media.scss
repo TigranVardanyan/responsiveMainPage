@@ -75,8 +75,13 @@
 		}
 	}	
 }
-
+@media screen and (min-width:768px) and (max-width: 992px) {
+	.title_block {
+		margin-top: 70px;
+	}
+}
 @media screen and (max-device-width: 992px) {
+
 	html{
 		font-size: 18px;
 		body {
@@ -116,7 +121,6 @@
 						img {
 							top: 0px;
 						}
-
 					}
 					.view {
 						.social-links {
@@ -141,5 +145,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

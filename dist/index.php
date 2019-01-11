@@ -72,7 +72,8 @@
 			<footer>© 2017 All rights reserved.</footer>
 		</div>
 	</div>
-    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+<script src="js/reveal.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

@@ -296,9 +296,7 @@ body {
           body .content .content_header .view .rotate .h31 {
             position: relative;
             -webkit-backface-visibility: hidden;
-                    backface-visibility: hidden;
-            -webkit-animation: animatiaFrontend2 3s infinite ease;
-                    animation: animatiaFrontend2 3s infinite ease; }
+                    backface-visibility: hidden; }
           body .content .content_header .view .rotate h2 {
             font-family: "Roboto";
             font-size: 2rem; }
