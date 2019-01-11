@@ -24,8 +24,8 @@
 										</h2>
 									</div>
 									<div class="rotate">
-										<h3 class="h31">
-											Frontend - developer
+										<h3 class="h31 reveal">
+											Front-End developer
 										</h3>
 									</div>
 									<div class="social-links_new">
@@ -72,7 +72,8 @@
 			<footer>© 2017 All rights reserved.</footer>
 		</div>
 	</div>
-
+<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+<script src="js/reveal.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
