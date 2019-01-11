@@ -12,13 +12,13 @@
 					<div class="content_header cChange col-12">
 						<div class="container portfolio page">
 							<div class="row align-items-center justify-content-center">
-								<h1>Reviews</h1>
+								<h1>Bower</h1>
 							</div>
 						</div>
 					</div>
 					<div class="content_main col-12">
-						<div class="container reviews page">
-							<div class="reviews_cantainer  d-flex flex-column align-items-center col-12">
+						<div class="container bower page">
+							<div class="bower_cantainer  d-flex flex-column align-items-center col-12">
 								<div class="submit d-flex">
 									<form class="forma" action="logic/action.php" method="get">
 										<input class="inputText" type="text" name="myText" maxlength="22">

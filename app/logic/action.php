@@ -13,4 +13,4 @@ $params = [":txt" => $txt];
 
 $stmt->execute($params);
 
-header("location: ../reviews.php");
+header("location: ../bower.php");
