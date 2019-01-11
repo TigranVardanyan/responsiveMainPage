@@ -25,6 +25,7 @@ body {
 		.row {
 			.header {
 				h1 {
+					text-align: center;
 					font-size: 25px;
 					margin: 0;
 					padding: 0;
@@ -43,6 +44,7 @@ body {
 						text-decoration: none;
 						list-style: none;
 						cursor: pointer;
+						margin: 0 2px;
 						a {
 							&::after {
 								display: inline;
@@ -71,9 +73,9 @@ body {
 							box-sizing: border-box;
 							text-decoration: none;
 							color: inherit;
-							padding: 8px 0;
+							padding: 8px 8px;
+							margin-right: 8px;
 						}
-
 					}
 				}
 			}

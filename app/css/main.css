@@ -60,7 +60,7 @@
   opacity: 0;
   position: absolute; }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 25px; }
     html body .wrapper .content .content_header .avatar {
@@ -72,7 +72,33 @@
     html body .wrapper .content .content_main {
       padding: 3px; }
       html body .wrapper .content .content_main .service_services > div {
-        min-width: 100%; } }
+        min-width: 100%; }
+    html body .header-nav .row .navbar {
+      display: block;
+      position: fixed; }
+      html body .header-nav .row .navbar .open {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.7) !important;
+        text-align: center; }
+        html body .header-nav .row .navbar .open a {
+          font-size: 1.3rem;
+          font-weight: bolder;
+          color: #fff; }
+    html body .header-nav .row .navbar ul {
+      display: block; }
+      html body .header-nav .row .navbar ul.open {
+        background-color: white; }
+      html body .header-nav .row .navbar ul li {
+        padding: 5px; }
+        html body .header-nav .row .navbar ul li.hide {
+          display: none; }
+        html body .header-nav .row .navbar ul li.cross {
+          display: block;
+          text-align: right; } }
 
 @media screen and (max-device-width: 992px) {
   html {
@@ -125,6 +151,7 @@ body {
       -webkit-box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.1);
               box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.1); }
     body .header-nav .row .header h1 {
+      text-align: center;
       font-size: 25px;
       margin: 0;
       padding: 0;
@@ -141,7 +168,8 @@ body {
       body .header-nav .row .navbar ul li {
         text-decoration: none;
         list-style: none;
-        cursor: pointer; }
+        cursor: pointer;
+        margin: 0 2px; }
         body .header-nav .row .navbar ul li a {
           display: inline;
           position: relative;
@@ -150,7 +178,8 @@ body {
                   box-sizing: border-box;
           text-decoration: none;
           color: inherit;
-          padding: 8px 0; }
+          padding: 8px 8px;
+          margin-right: 8px; }
           body .header-nav .row .navbar ul li a::after {
             display: inline;
             position: absolute;

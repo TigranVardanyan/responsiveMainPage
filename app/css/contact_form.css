@@ -4,7 +4,7 @@
 }
 
 form {
-    width: 450px;
+    width: 100%;
     text-align: center;
 }
 .contact_form i {
@@ -21,13 +21,13 @@ form {
 .contact_form input {
     box-sizing: border-box;
     height: 50px;
-    width: 400px;
+    width: 100%;
     transition: 0.3s;
     outline: none;
 
 }
 .contact_form textarea {
-    width: 400px;
+    width: 100%;
     outline: none;
 }
 .contact_form label {
@@ -50,4 +50,8 @@ form {
 .focused {
     top: calc(-20px) !important;
     transition: 0.3s;
+}
+
+#ymaps1547178162922572747 {
+    width: 100%;
 }

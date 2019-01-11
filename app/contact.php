@@ -19,23 +19,19 @@
                 <div class="content_main col-12">
                     <div class="contact col-12">
                         <div class="row">
-                            <div class="contact_info-list col-6">
+                            <div class="contact_info-list col-lg-6 col-12">
                                 <h2>Get in <span class="cChange">Touch</span></h2>
                                 <script type="text/javascript" charset="utf-8" async
-                                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa3ab8e1d250589aba08e407d4e267553de3669930e8fbe2c54b4f232205942d1&amp;width=450&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
+                                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa3ab8e1d250589aba08e407d4e267553de3669930e8fbe2c54b4f232205942d1&amp;width=100%&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
                                 <br/>
                                 <div class="info">
                                     <div class="info_el"><i class="fas fa-map-marker-alt cChange"></i>  <span>Yerevan, Armenia</span></div>
                                     <div class="info_el"><i class="fas fa-envelope cChange"></i>  <span>tig.vardanyan.001@gmail.com</span></div>
                                     <div class="info_el"><i class="fas fa-phone cChange"></i>  <span>+374 77 720166</span></div>
                                     <div class="info_el"><i class="fas fa-check cChange"></i>  <span>Freelance Available</span></div>
-
-
-
-
                                 </div>
                             </div>
-                            <div class="contact_form col-6">
+                            <div class="contact_form col-lg-6 col-12">
                                 <h2>Contact <span class="cChange">Form</span></h2>
                                 <form name="contact_form" action="send_message.php">
                                     <div class="contact_form_user">
@@ -74,6 +70,7 @@
 
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/contactFormScripts.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

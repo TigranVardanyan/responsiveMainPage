@@ -1,6 +1,6 @@
 //Медиа запросы
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
 	html{
 		font-size: 25px;
 		body {
@@ -28,6 +28,49 @@
 						}
 					}
 				}
+			}
+			.header-nav {
+				.row {
+					.navbar {
+						display: block;
+						position: fixed;
+						.open {
+							position: fixed;
+							top: 0;
+							left: 0;
+							height: 100vh;
+							width: 100vw;
+							background-color: rgba(0,0,0,0.7)!important;
+							text-align: center;
+							a {
+								font-size: 1.3rem;
+								font-weight: bolder;
+								color: #fff;
+							}
+
+						}
+					}
+					.navbar {
+						ul {
+							display: block;
+							&.open {
+								background-color: white;
+							}
+							li {
+								padding: 5px;
+								&.hide {
+									display: none;
+								}
+								&.cross {
+									display: block;
+									text-align: right;
+								}
+							}
+						}
+					}
+					
+				}
+
 			}
 		}
 	}	
