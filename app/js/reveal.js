@@ -1,11 +1,12 @@
 const text = baffle('.reveal');
 function loop() {
     text.set({
-        characters: "▒░▓ ░░▒▓▒ █▒░▓░ ▓▒▓ ▓▒<▒/ ░▓░█ █>/ /▓▒░ ░▒█▒",
+        characters: "▒░▓░ ▓▒<▒/ ░▓░█ █>/ /▓▒░ ░▒█▒",
         speed: 120
     });
     text.start();
-    text.reveal(4000);
+    text.reveal(2500);
 }
-setInterval(loop , 4000)
+setTimeout(loop, 2500)
+setInterval(loop , 8000)
 

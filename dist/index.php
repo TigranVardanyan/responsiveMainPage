@@ -25,7 +25,7 @@
 									</div>
 									<div class="rotate">
 										<h3 class="h31 reveal">
-											Front-End developer
+											Front-End Developer
 										</h3>
 									</div>
 									<div class="social-links_new">
@@ -51,9 +51,9 @@
 										<div class="row align-items-center">
 											<div class="data-Q col-12">
 												<ul>
-													<li class="title"><span class="title">Age</span><span class="value">21</span></li>
-													<li class="title"><span class="title">Residence</span><span class="value">Armenia</span></li>
-													<li class="title"><span class="title">Address</span><span class="value">Fuchik 2-12</span></li>
+													<li class="title"><span class="title">Age</span><span class="value">22</span></li>
+													<li class="title"><span class="title">Citizenship</span><span class="value">Armenian</span></li>
+													<li class="title"><span class="title">Address</span><span class="value">Armenia, Yerevan</span></li>
 													<li class="title"><span class="title">E-mail</span><span class="value cChange">tig.vardanyan.001@gmail.com</span></li>
 													<li class="title"><span class="title">Phone</span><span class="value">+374 (77) 72-01-66</span></li>
 													<li class="title"><span class="title">Freelance</span><span class="value">Available</span></li>
